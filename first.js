@@ -71,6 +71,8 @@ const prompt =require("prompt-sync")()
 
 
 
+
+
 // let grades= prompt("enter number: ")
 
 // if(grades<=100 && grades>=90 ){
@@ -555,16 +557,185 @@ const prompt =require("prompt-sync")()
 // func()
 
 
+// const arr = [1,2,3,4,5,2, 2, 3, 3, 2, 2,6,7] 
 
+
+
+// let arr3 = arr.map((value, index)=>{
+//     return value, index
+// })
+// console.log(arr3)
+
+
+// let arr3 = arr.filter((value)=>{
+//   return value==2
+// })
+// console.log(arr3)
+
+
+// let arr3 = arr.reduce((prev, current)=>{
+//   return prev / current
+// })
+// console.log(arr3)
+
+
+
+// let a = "swastik";
+// console.log(a)
+
+//hoisting
+//-------------------------------------------
+// any()
+
+// function any(){
+//     console.log(a)
+//     var a = 'swastik'
   
+// }
+
+
+
+//var, let , const
+
+
+// var a = "Rajneesh";
+// var a= "Rohit"
+// console.log(a)
 
 
 
 
 
+// let a = "swastik";
+// a ="swastika"
+// console.log(a)
+
+// const a = "swastik"
+// a= "swastika"
+
+// console.log(a)
+
+// let a = "swastik";
+
+// {
+//     console.log(a)
+//      let a = "swastik" ;
+     
+// }
+
+// console.log(a)
 
 
 
 
+// let a = "swastik";
+
+// function add(){
+//     console.log(a) 
+  
+// }
+
+
+// add()
+
+
+// {
+
+// }
+
+
+
+
+// {
+    
+//     let a = "swastik";
+// }
+// console.log(a)
+
+
+
+// function outer(){
+ 
+  
+//    function inner(){
+    
+//    let x = "swastik";
+//    }
+//    function inner2(){
+//     console.log(x)
+//    }
+//    inner()
+//    inner2()
+// }
+// outer()
+
+
+// function add(a , b){
+//  console.log(a + b)
+// }
+
+// add(4,3)
+
+function full(city, state){
+    return this.name +" " +this.roll +" " + city +" "  + state
+
+}
+
+
+
+const StudentData ={
+    name:"swastik",
+    dob: 17,
+    roll: 28,
+    class:12,
+  }
+
+// const StudentData1= {
+//      name:"Swastika",
+//      dob: 13,
+//      roll: 24,
+//      class:12,
+// }
+
+//  console.log(full.call(StudentData1, "jaipur", "rajasthan")) 
+//  console.log(full.call(StudentData, "jaipur", "rajasthan")) 
+
+// console.log(StudentData1.name)
+// console.log(StudentData.name)
+// console.log(StudentData['name'])
+// const StudentData1 = ["swastik", 17, 28, 12]
+// console.log(StudentData1[0])
+
+
+//apply
+
+// console.log(full.apply(StudentData,["jaipur", "rajasthan"] ))
+
+
+// let bound =full.bind(StudentData,"jaipur", "rajasthan")
+// console.log(bound())
+
+
+// const sd1= {
+//   name:"Swastika",
+//   dob: 13,
+//   roll: 24,
+//   class:12,
+// }
+
+
+
+// for(let y in sd1){
+//  console.log(sd1[y])
+// }
+
+
+// for(let x of Object.entries(sd1)){
+//   console.log(x)
+// }
+
+
+ let date = new Date()
+ console.log(date)
 
 

@@ -34,17 +34,36 @@
    
 
 
-let vari = ["swastik", "friend1", "friend2", 12]
-let shifted = vari.shift()
-console.log(shifted)
-console.log(vari)
-   //var lets you redeclare a variable and reassign also
+// let vari = ["swastik", "friend1", "friend2", 12]
+// let shifted = vari.shift()
+// console.log(shifted)
+// console.log(vari)
+//    //var lets you redeclare a variable and reassign also
    //with let keyword you can reassign a value but cannot redeclare a variable
    //with const keyword you cannot reassign and redeclare variable 
 
 
+   function time(){
+    let date = new Date()
 
-   
+let day = date.toLocaleDateString()
+
+   let hour = date.getHours()
+   let min = date.getMinutes()
+   let sec =date.getSeconds()
+
+
+
+console.log(`${day} ${hour} : ${min} : ${sec}`)
+   }
+
+
+
+setInterval(time, 1000)
+
+// console.log("hello")
+// setTimeout(time , 5000) 
+// console.log("hi")  
 
 
     </script>
